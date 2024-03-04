@@ -6,4 +6,12 @@ def opt_dist(blocks, d):
             minSwitchedBlocks = switchedBlocks
     return minSwitchedBlocks
 
-print(opt_dist([0, 0, 1, 0, 0, 0, 1, 0, 0, 0], 0))
+file_input = open("zad4_input.txt", "r")
+file_output = open("zad4_output.txt", "w")
+for line in file_input:
+    blocks_str, d_str = line.strip().split()
+    blocks = list(map(int, blocks_str))
+    d = int(d_str)
+    file_output.write(str(opt_dist(blocks, d)) + '\n')
+file_input.close()
+file_output.close()
