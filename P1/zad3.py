@@ -1,3 +1,8 @@
+#Udało mi się znaleźć 12 kart, które dają szansę na wygraną większą niż 50%.
+#Niestety nie udało mi się znaleźć 13 kart, które dają szansę na wygraną większą niż 50%.
+
+#By przyspieszyć szukanie potencjalnych rozwiązań zaczynałem od wielu baz 9 kart, które dają szansę na wygraną większą niż 50%.
+
 from collections import Counter
 import random
 

@@ -1,3 +1,8 @@
+#Rozwiązane przy użyciu programowania dynamicznego
+#dla każdego podciągu od 0 do i sprawdzamy maksymalny wynik jaki możemy uzyskać
+#za każdym razem zapisujemy maksymalny wynik i punkt podziału
+#na końcu zwracamy wynik i odtwarzamy podział
+
 file = open("words.txt", "r")
 polishWords = set()
 for line in file:

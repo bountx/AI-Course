@@ -1,3 +1,5 @@
+#Niestety rozwiązanie z nawrotwami działa zbyt wolno, aby przejść testy
+
 from collections import deque
 
 file = open("zad1_input.txt", "r")
