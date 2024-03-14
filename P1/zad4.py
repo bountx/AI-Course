@@ -1,5 +1,5 @@
 #dla każdego i sprawdzam ile bloków muszę przestawić żeby uzyskać pożądany wynik
-#następnie porównuję wyniki i wybieram najmniejszy
+#następnie porównuję wyniki i wybieram najmniejszy+
 
 def opt_dist(blocks, d):
     minSwitchedBlocks = len(blocks)

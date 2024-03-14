@@ -96,9 +96,9 @@ def generateRandomCardB(setOfCards):
     return card
 
 def generateBestCards():
-    bestLength = 0
+    bestLength = 11
     for _ in range(300):
-        cards = [(2, 'C'), (2, 'D'), (2, 'H'), (2, 'S'), (3, 'C'), (3, 'D'), (3, 'H'), (3, 'S'), (4, 'C'), (4, 'D'), (4, 'H'), (4, 'S')]
+        cards = [(2, 'C'), (2, 'D'), (2, 'H'), (2, 'S'), (3, 'C'), (3, 'D'), (3, 'H'), (3, 'S'), (4, 'C'), (4, 'D'), (4, 'H')]
         setOfCards = set(cards)
         
 
@@ -116,8 +116,4 @@ def generateBestCards():
     return bestLength
         
 
-
-
-
-print(estimateProbabilityOfWinning([(2, 'C'), (2, 'D'), (2, 'H'), (2, 'S'), (3, 'C'), (3, 'D'), (3, 'H'), (3, 'S'), (4, 'C'), (4, 'D'), (4, 'H'), (4, 'S'), (5, 'H')]))
 print(generateBestCards())
